@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Games.com | Official Website</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Game Warrior Template">
+	<meta name="keywords" content="warrior, game, creative, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->   
+	<link href="{{url_for('static', filename = 'img/favicon.ico')}}" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="{{url_for('static',filename = 'css/bootstrap.min.css')}}"/>
+	<link rel="stylesheet" href="{{url_for('static',filename = 'css/font-awesome.min.css')}}"/>
+	<link rel="stylesheet" href="{{url_for('static',filename = 'css/owl.carousel.css')}}"/>
+	<link rel="stylesheet" href="{{url_for('static',filename = 'css/style.css')}}"/>
+	<link rel="stylesheet" href="{{url_for('static',filename = 'css/animate.css')}}"/>
+
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header section -->
+	<header class="header-section">
+		<p style="text-align:center;"><span style="color:white; font-size:30px; padding-top:10px;">Game</span>.com</p>
+	</header>
+	<!-- Header section end -->
+
+
+	<!-- Latest news section -->
+	<div class="latest-news-section">
+		<div class="ln-title">Games</div>
+		<div class="news-ticker">
+			<div class="news-ticker-contant">
+				<div class="nt-item"><span class="new">Bounce</span>An interactive game developed by Nerd Stack.</div>
+				<div class="nt-item"><span class="strategy">The Lost Ninja</span>An adventure game designed by DBJ team</div>
+				<div class="nt-item"><span class="racing">The Street Phyter</span>An action game developed by JMG Squad.</div>
+			</div>
+		</div>
+	</div>
+	<!-- Latest news section end -->
+
+
+	<!-- Page info section -->
+	<section class="page-info-section set-bg" data-setbg="{{url_for('static',filename = 'img/back.jpg')}}">
+		<div class="pi-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-5 col-lg-6 text-white">
+						<h2>Welcome to Games.com</h2>
+						<p>Games.com is made up of innovative Web Developers and Game Designers:<br> Powered by Global Code.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Page info section -->
+		<section class="recent-game-section spad set-bg" data-setbg="img/recent-game-bg.png">
+		<div class="container">
+			<div class="section-title">
+				<h2>Games</h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="recent-game-item">
+						<div class="rgi-thumb set-bg" data-setbg="{{url_for('static',filename = 'img/lost1.jpg')}}">
+							<div class="cata new">The Lost Ninja</div>
+						</div>
+						<div class="rgi-content">
+							<h5>An adventure game designed by DBJ team</h5>
+													
+								<a href="lost.html" target="_blank"><button class="btn-success" >Goto Game</button></a>
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="recent-game-item">
+						<div class="rgi-thumb set-bg" data-setbg="{{url_for('static',filename = 'img/street2.jpg')}}">
+							<div class="cata racing">The Street Pyghter</div>
+						</div>
+						<div class="rgi-content">
+							<h5>An action game developed by JMG Squad</h5>
+	
+							
+							<a href="street.html" target="_blank"><button class="btn-success" >Goto Game</button></a>
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="recent-game-item">
+						<div class="rgi-thumb set-bg" data-setbg="{{url_for('static',filename = 'img/2.jpg')}}">
+							<div class="cata adventure">Bounce</div>
+						</div>
+						<div class="rgi-content">
+							<h5>An interactive game developed by Nerd Stack</h5>
+														
+							<a href="bounce.html" target="_blank"><button class="btn-success">Goto Game</button></a>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Recent game section end -->
+	
+	<!-- Footer section -->
+    <footer class="footer-section">
+        <div class="container">
+            <p class="copyright col-lg-12" style="text-align:center;">
+                Copyright &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> All rights reserved
+            </p>
+        </div>
+    </footer>
+    <!-- Footer section end -->
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="{{url_for('static',filename = 'js/jquery-3.2.1.min.js')}}"></script>
+	<script src="{{url_for('static',filename = 'js/bootstrap.min.js')}}"></script>
+	<script src="{{url_for('static',filename = 'js/owl.carousel.min.js')}}"></script>
+	<script src="{{url_for('static',filename = 'js/jquery.marquee.min.js')}}"></script>
+	<script src="{{url_for('static',filename = 'js/main.js')}}"></script>
+    </body>
+</html>
